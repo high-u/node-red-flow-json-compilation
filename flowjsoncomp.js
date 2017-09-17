@@ -2,6 +2,7 @@ var fs = require('fs');
 var path = require("path");
 var ncp = require("copy-paste");
 
+
 var param1 = process.argv[2]; // `input dir`
 
 function getfiles(p, f, nodes, attrs) {
